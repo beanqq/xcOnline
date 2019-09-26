@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xc-framework-common" />
+        <module name="xc-framework-model" />
+        <module name="xc-framework-utils" />
+        <module name="xc-service-api" />
+        <module name="xcOnline" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xcOnline" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
